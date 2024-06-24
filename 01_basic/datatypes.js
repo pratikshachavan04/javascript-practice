@@ -29,9 +29,37 @@ letmyObj = {                      //object
     age: 26,
 }
 
-
+/*
 const myFunction =function(){
     //console.log("Hello world");
 }
 
-//console.log (typeof heros);
+console.log (typeof heros);
+*/
+
+//-----------------------------------------------------------------------------------------------------
+
+//Stack (Premitive), Heap (Non-Premitive)
+
+let myliabraryname = "pratiksha"
+
+
+let anothername = myliabraryname
+anothername = "A11DESK"
+
+
+console.log(myliabraryname);
+console.log(anothername);
+
+
+let user1 = {
+    email: "user@gmail.com",
+    upiId : "okaxixuser"
+}
+
+let user2 = user1
+
+user2.email = "pratiksha@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
