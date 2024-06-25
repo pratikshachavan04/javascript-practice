@@ -31,10 +31,10 @@ letmyObj = {                      //object
 
 /*
 const myFunction =function(){
-    //console.log("Hello world");
+    //console.log("Hello world");   // object
 }
 
-console.log (typeof heros);
+console.log (typeof heros);        // array
 */
 
 //-----------------------------------------------------------------------------------------------------
