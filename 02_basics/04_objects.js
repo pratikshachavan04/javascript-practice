@@ -31,17 +31,36 @@ const obj3 = {5:"ee", 6:"ff"}
 const obj4 = {...obj1,...obj2,...obj3}
 //console.log(obj4);
 
-const user = [
+const users = [
     {
     id : 1,
-    email: user("p@yahoo.com")
+    email : "p@yahoo.com"
 },
    {
     id :2,
-    email: user("p@yaahoo.com")
+    email : "p@yaahoo.com"
    },
 
 ]
 
 
-console.log(Object.keys(webUser));
+users[1].email
+// console.log(instaUser);
+
+// console.log(Object.keys(instaUser));
+// console.log(Object.values(instaUser));
+
+
+const classes = {
+    classname:"js",
+    price :"0",
+    classInstructor : "PC"
+
+} 
+
+// classes.classInstructor
+
+const {classInstructor: instructor} = classes
+console.log(instructor);
+
+
